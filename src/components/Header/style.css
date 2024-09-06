@@ -17,15 +17,43 @@
     gap: 3rem;
 }
 
+.menu a {
+    display: flex;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
 .menu .dropdown {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
+}
+
+.menu .dropdown .icon {
+    display: flex;
+    padding-top: 0.537rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu .dropdown .icon img {
+    width: 0.75rem;
+    height: 0.463rem;
 }
 
 .signup {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.signup .checkout {
+    display: flex;
+    border-radius: 0.5rem;
+    background: red;
+    padding: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
