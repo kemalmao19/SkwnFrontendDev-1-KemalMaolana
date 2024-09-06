@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.875rem 6.25rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.841rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu .dropdown {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
