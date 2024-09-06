@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(100vh - 8.75rem);
+}
+
+.hero .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding-left: 8.875rem;
+  padding-right: 4rem;
+}
+
+.hero .right .btns {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.hero .right .btns .btn {
+  display: flex;
+  justify-content:first baseline;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero .left {
+  background-image: url("/images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 32.625rem;
+  /* height: 100vh; */
+}
