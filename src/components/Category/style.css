@@ -1,0 +1,33 @@
+.category {
+  display: flex;
+  padding: 5rem 8.875rem 5rem 0;
+  gap: 3rem;
+}
+
+.left {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right #label,
+#title {
+  color: var(--color-woodBark);
+}
+
+.right .cat {
+  display: flex;
+  flex-direction: column;
+}
+
+.right .cat .dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  cursor: pointer;
+}
