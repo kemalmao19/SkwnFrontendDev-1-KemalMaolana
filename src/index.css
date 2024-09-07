@@ -1,3 +1,6 @@
+/* 
+  reset
+ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,9 +45,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /* 
-a { text-decoration: none; color: black;}
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; } */
+  style guide 
+*/
+:root {
+	/* colors */
+  --color-sour: #E5F0B6;
+  --color-brightBrown: #553B33;
+  --color-woodBark: #2F241F;
+  --color-jarrah: #827256;
+}
+
+.title_16 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -1%;
+}
+
+.title_24 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+}
+
+.title_72 {
+    font-size: 4.5rem;
+    line-height: 5.446rem;
+    font-weight: 800;
+    letter-spacing: -1%;
+}

@@ -1,11 +1,8 @@
 import { Button } from "../Shared/Button/Button";
 import "./style.css";
-import font from "../../styles/font.module.css";
-import { colors } from "../../styles/variables";
-
 export const Header = () => {
   return (
-    <div className={`header ${font.title_16}`}>
+    <div className={`header title_16`}>
       <div className="logo">
         <img
           src="/logo.svg"
@@ -30,10 +27,10 @@ export const Header = () => {
         <a href="#">Contact</a>
       </div>
       <div className="signup">
-        <Button bg={colors.sour} p="0.75rem 1.5rem">
+        <Button bg="var(--color-sour)" p="0.75rem 1.5rem">
           Sign Up
         </Button>
-        <Button bg={colors.brightBrown}>
+        <Button bg="var(--color-brightBrown)">
           <img src="/button/shopping_bag.svg" alt="" />
         </Button>
       </div>

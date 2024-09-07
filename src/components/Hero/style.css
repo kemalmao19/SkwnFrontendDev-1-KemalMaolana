@@ -14,8 +14,17 @@
   padding-right: 4rem;
 }
 
+.hero .right .title {
+  color: var(--color-woodBark);
+}
+
+.hero .right .title span {
+  color: var(--color-jarrah);
+}
+
 .hero .right .btns {
   display: flex;
+  color: var(--color-brightBrown);
   align-items: center;
   gap: 1.5rem;
 }
