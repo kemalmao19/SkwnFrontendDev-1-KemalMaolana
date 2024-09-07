@@ -1,0 +1,49 @@
+.why {
+    display: flex;
+    flex-direction: column;
+}
+
+.why .why_section {
+    color: var(--color-sour);
+    display: flex;
+    flex-direction: column;
+    padding: 4.5rem 8.875rem;
+    gap: 2.5rem;
+    background-color: var(--color-woodBark);
+}
+
+.why .why_section .experience {
+    display: flex;
+    /* gap: 3.5rem; */
+}
+
+.why .why_section .experience .item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.why .why_section .experience .item img {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-halfSour);
+    opacity: 1;
+}
+
+.why .partner_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 8.875rem;
+    gap: 9.375rem;
+    color: var(--color-woodBark);
+}
+
+.why .partner_section .partner {
+    line-height: 1.816rem;
+}
+
+.why .partner_section .icons {
+    display: flex;
+    gap: 5.54rem;
+}
