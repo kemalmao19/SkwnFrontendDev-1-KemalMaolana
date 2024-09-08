@@ -11,15 +11,15 @@ import { Footer } from './components/Footer/Footer'
 function App() {
 
   return (
-    <h1>
+    <>
       <Header/>
       <Hero/>
       <Why/>
       <Category />
-      {/* <Products /> */}
+      <Products />
       <Limited />
       <Footer />
-    </h1>
+    </>
   )
 }
 

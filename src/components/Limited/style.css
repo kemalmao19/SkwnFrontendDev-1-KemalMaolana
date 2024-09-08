@@ -8,7 +8,7 @@
     color: var(--color-woodBark);
     display: flex;
     flex-direction: column;
-    padding: 4.5rem 8.875rem;
+    padding: 8.875rem;
     gap: 2.625rem;
 }
 
@@ -40,4 +40,9 @@
     border-radius: 0 0.5rem 0.5rem 0;
     background-color: var(--color-sour);
     opacity: 1;
+    cursor: pointer;
+}
+.limited .limited_section .email .icon:hover {
+    background-color: var(--color-halfSour);
+    transition: 0.3s ease-in-out;
 }

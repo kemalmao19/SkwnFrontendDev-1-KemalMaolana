@@ -18,24 +18,24 @@ export const Footer = () => {
         </div>
         <div className="menu">
           <h1 className="title_20">Support</h1>
-          <p>FAQ</p>
-          <p>Shipping & Returns</p>
-          <p>Care guide</p>
-          <p>Reedem warranty</p>
+          <a href="">FAQ</a>
+          <a href="">Shipping & Returns</a>
+          <a href="">Care guide</a>
+          <a href="">Reedem warranty</a>
         </div>
         <div className="menu">
           <h1 className="title_20">Social Media</h1>
-          <p>Facebook</p>
-          <p>Instagram</p>
-          <p>Twitter</p>
-          <p>Tiktok</p>
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+          <a href="">Twitter</a>
+          <a href="">Tiktok</a>
         </div>
         <div className="menu">
           <h1 className="title_20">About Us</h1>
-          <p>Our story</p>
-          <p>Designer</p>
-          <p>Craftmanship</p>
-          <p>Sustainability</p>
+          <a href="">Our story</a>
+          <a href="">Designer</a>
+          <a href="">Craftmanship</a>
+          <a href="">Sustainability</a>
         </div>
       </div>
     </div>

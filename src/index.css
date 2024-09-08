@@ -85,8 +85,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  /* font-size: calc(100vw / 1440 * 10); */
+  font-size: calc(100vw / 1440 * 16);
   /* font: inherit; */
   vertical-align: baseline;
 }
@@ -153,6 +152,13 @@ table {
   line-height: 1.5rem;
   font-weight: 400;
   letter-spacing: -1%;
+}
+
+.description_48 {
+  font-size: 3rem;
+  line-height: 3.631rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 .title_16 {

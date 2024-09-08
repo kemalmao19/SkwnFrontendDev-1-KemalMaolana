@@ -26,11 +26,11 @@ export const Why = () => {
         <div className="title_64">
           We care about details and the quality of our products
         </div>
-        <div className="experience title_24bold">
+        <div className="experience">
           {items.map((item, index) => (
             <div className="item" key={index.toString()}>
               <img src={item.icon} alt="" />
-              <p>{item.title}</p>
+              <p className="title_24bold">{item.title}</p>
             </div>
           ))}
         </div>
