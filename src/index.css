@@ -132,6 +132,8 @@ table {
 */
 :root {
   /* colors */
+  --color-flintstone: #667085;
+  --color-whiteout: #FCFAFA;
   --color-sour: #e5f0b6;
   --color-halfSour: #E5F0B680;
   --color-brightBrown: #553b33;
@@ -142,6 +144,13 @@ table {
 .description_14 {
   font-size: 0.875rem;
   line-height: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -1%;
+}
+
+.description_16 {
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 400;
   letter-spacing: -1%;
 }
@@ -157,6 +166,13 @@ table {
   font-size: 1.125rem;
   line-height: 1.361rem;
   font-weight: 700;
+  letter-spacing: -1%;
+}
+
+.title_20 {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-weight: 500;
   letter-spacing: -1%;
 }
 

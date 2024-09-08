@@ -1,0 +1,43 @@
+.limited {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-whiteout);
+}
+
+.limited .limited_section {
+    color: var(--color-woodBark);
+    display: flex;
+    flex-direction: column;
+    padding: 4.5rem 8.875rem;
+    gap: 2.625rem;
+}
+
+.limited .limited_section .email {
+    display: flex;
+    align-items: center;
+}
+
+.limited .limited_section .email input {
+    padding: 1.375rem 2.25rem;
+    border: none;
+    outline: none;
+}
+
+.limited .limited_section .email input[type="text"] {
+    width: 30rem;
+}
+
+.limited .limited_section .email input::placeholder {
+    color: var(--color-brightBrown);
+}
+
+.limited .limited_section .email p {
+    color: var(--color-brightBrown);
+}
+
+.limited .limited_section .email .icon {
+    padding: 1.75rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: var(--color-sour);
+    opacity: 1;
+}
